@@ -9,10 +9,9 @@ function firstNonRepeatedChar(str) {
 		}
 		if(count === 1){
 			return str[i];
-		}else if(count >1 && i === str.length-1){
-			return null;
 		}
 	}
+	return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
