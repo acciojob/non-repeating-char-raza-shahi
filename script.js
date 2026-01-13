@@ -9,6 +9,7 @@ function firstNonRepeatedChar(str) {
 		}
 		if(count === 1){
 			return str[i];
+			break;
 		}else if(count >1 && i === str.length-1){
 			return null;
 		}
